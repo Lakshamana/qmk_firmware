@@ -39,3 +39,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // WS2812 RGB LED strip input and number of LEDs
 #define RGB_DI_PIN D3
 #define RGBLED_NUM 12
+
+// #define TAPPING_TERM_PER_KEY
+#define USB_POLLING_INTERVAL_MS 1
+#define DEBOUNCE 5
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+// #define IGNORE_MOD_TAP_INTERRUPT

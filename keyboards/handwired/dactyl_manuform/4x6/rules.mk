@@ -7,6 +7,7 @@ BOOTLOADER = caterina
 # Build Options
 #   change yes to no to disable
 #
+DEBOUNCE_TYPE = sym_eager_pk
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
@@ -20,3 +21,4 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes
+# AUTO_SHIFT_ENABLE = yes
